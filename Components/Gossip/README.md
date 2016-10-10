@@ -1,6 +1,6 @@
 # Gossip
 
-Cassandra uses the *gossip* protocol in internode communication for determining
+Cassandra uses the *gossip* protocol for internode communication to determine the
 
 * state &
 * location

@@ -1,15 +1,20 @@
 # Messaging Service
 
 Messaging Service is responsible for managing the internode socket communication in a ring. 
-It runs at each node in a ring acting as a gateway messaging server. 
-The Messaging Service is represented by the singleton class *org.apache.cassandra.net.MessagingService*.
 
-The Message Service processes the following communications
+**Role**
+
+The Message Service runs at each node in a ring acting as a gateway messaging server. 
+It processes the following communications
 
 * read
 * write
 * gossip
 * read digest
+
+**Class**
+
+The Messaging Service is represented by the singleton class *org.apache.cassandra.net.MessagingService*.
 
 **Sockets**
 

@@ -2,3 +2,4 @@
 
 * Messaging Service
 * Gossip
+* Partitioner
